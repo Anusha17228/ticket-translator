@@ -1,0 +1,13 @@
+=== ORIGINAL TICKET (Language: en) ===
+My login is not working.
+Getting error 404. Please fix urgently
+
+=== TRANSLATED TO ENGLISH ===
+My login is not working.
+Getting error 404. Please fix urgently
+
+=== ENGINEER REPLY (English) ===
+Thank you for contacting support. We will resolve your issue within 24 hours.
+
+=== REPLY TRANSLATED BACK (en) ===
+Thank you for contacting support. We will resolve your issue within 24 hours.

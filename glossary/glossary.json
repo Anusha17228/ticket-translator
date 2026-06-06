@@ -1,0 +1,9 @@
+{
+  "bug": "bug",
+  "error": "error",
+  "server": "server",
+  "login": "login",
+  "password": "password",
+  "API": "API",
+  "crash": "crash"
+}

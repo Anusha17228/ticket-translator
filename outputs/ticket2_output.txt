@@ -1,0 +1,13 @@
+=== ORIGINAL TICKET (Language: es) ===
+Mi servidor no funciona desde hace 2 horas.
+El API no responde. Necesito ayuda urgente.
+
+=== TRANSLATED TO ENGLISH ===
+My server has been down for 2 hours.
+The API is not responding. I need urgent help.
+
+=== ENGINEER REPLY (English) ===
+Thank you for contacting support. We will resolve your issue within 24 hours.
+
+=== REPLY TRANSLATED BACK (es) ===
+Gracias por contactar al soporte. Resolveremos su problema dentro de las 24 horas.

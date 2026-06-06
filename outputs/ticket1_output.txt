@@ -1,0 +1,15 @@
+=== ORIGINAL TICKET (Language: hi) ===
+मेरा लॉगिन काम नहीं कर रहा है।
+password डालने के बाद error आ रहा है।
+कृपया जल्दी ठीक करें।
+
+=== TRANSLATED TO ENGLISH ===
+My login is not working.
+An error is coming after entering the password.
+Please fix it quickly.
+
+=== ENGINEER REPLY (English) ===
+Thank you for contacting support. We will resolve your issue within 24 hours.
+
+=== REPLY TRANSLATED BACK (hi) ===
+समर्थन से संपर्क करने के लिए धन्यवाद. हम 24 घंटे के भीतर आपकी समस्या का समाधान करेंगे.
