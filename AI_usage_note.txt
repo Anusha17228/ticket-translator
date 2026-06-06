@@ -1,0 +1,15 @@
+WHAT AI HELPED WITH:
+- Designed full project structure
+- Wrote translator.py with deep-translator
+- Wrote database.py with SQLite
+- Fixed langdetect test issue
+- Guided GitHub upload step by step
+
+WHAT AI GOT WRONG:
+- First suggested LibreTranslate (needs local server)
+- Switched to deep-translator which works better
+
+BEST PROMPTS USED:
+- "Build multilingual ticket translator step by step"
+- "Fix pytest test for English detection"
+- "Help me push to GitHub with token
