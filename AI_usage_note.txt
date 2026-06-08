@@ -1,15 +1,27 @@
-WHAT AI HELPED WITH:
-- Designed full project structure
-- Wrote translator.py with deep-translator
-- Wrote database.py with SQLite
-- Fixed langdetect test issue
-- Guided GitHub upload step by step
+## What AI Helped With
+- Generating the complete Python project structure
+- Writing translator.py with language detection logic
+- Adding support for 30+ languages automatically
+- Writing glossary.json with multilingual technical terms
+- Creating test cases for the happy path
+- Writing README with setup and run instructions
+- Debugging translation errors and edge cases
 
-WHAT AI GOT WRONG:
-- First suggested LibreTranslate (needs local server)
-- Switched to deep-translator which works better
+## What AI Got Wrong
+- Initially did not handle Chinese language code (zh-cn) correctly
+- Had to fix glossary logic for special characters
+- Language detection failed on very short texts initially
+- Had to add error handling for unknown languages
 
-BEST PROMPTS USED:
-- "Build multilingual ticket translator step by step"
-- "Fix pytest test for English detection"
-- "Help me push to GitHub with token
+## Best Prompts Used
+- "Build a Python agent that reads all .txt files from a folder 
+   and processes each one automatically"
+- "Detect the language of support tickets and translate to English 
+   using free libraries only"
+- "Translate engineer reply back to customer original language"
+- "Add support for 30 languages including all Indian languages"
+- "Add glossary handling so technical terms are not mistranslated"
+
+## AI Capability Demonstrated
+- Agent Loop: automatically processes all tickets in folder
+- External API Integration: Google Translate API for translation
