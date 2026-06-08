@@ -1,86 +1,43 @@
+# Multilingual Ticket Translator
+AI Prototype Challenge Project
 
+## What It Does
+Reads support tickets written in any regional or international language,
+automatically detects the language, translates to English for engineers,
+and translates the engineer reply back to the customer's original language.
 
-Priya S <riyapriya2507@gmail.com>
+## Supported Languages (30+)
+Indian: Hindi, Tamil, Telugu, Malayalam, Kannada, Marathi, 
+Gujarati, Punjabi, Bengali, Urdu, Odia
 
-15:46 (2 minutes ago)
+International: French, German, Spanish, Italian, Portuguese, 
+Russian, Chinese, Japanese, Korean, Arabic, Turkish, 
+Vietnamese, Thai, Indonesian, Dutch, Polish, Swedish
 
-to me
+## Setup Instructions
+1. Install Python 3.12 or above
+2. Open Command Prompt
+3. Run: pip install deep-translator langdetect
+4. Put ticket .txt files inside the tickets/ folder
+5. Run: python translator.py
+6. Check outputs/ folder for results
 
+## Run Instructions
+python translator.py
 
+## Architecture Overview
+tickets/ folder → translator.py → detects language
+→ translates to English → engineer reply
+→ translates reply back to original language
+→ saves both versions in outputs/ folder
 
-\# Multilingual Ticket Translator
+## Assumptions and Limitations
+- Requires internet connection for Google Translate API
+- Language detection may fail on very short texts (less than 10 words)
+- Glossary.json must be manually updated for new technical terms
+- Translation accuracy depends on Google Translate
 
-
-
-\## What it does
-
-Reads support tickets written in any language,
-
-automatically detects the language, translates to
-
-English for engineers, then translates the reply
-
-back to the customer's original language.
-
-
-
-\## Setup Instructions
-
-1\. Install Python from python.org
-
-2\. Open CMD and run:
-
-&#x20;  pip install langdetect deep-translator pytest
-
-3\. Add ticket .txt files to the /tickets folder
-
-4\. Run: python main.py
-
-
-
-\## Run Instructions
-
-python main.py
-
-
-
-\## Run Tests
-
-python -m pytest test\_cases/ -v
-
-
-
-\## Architecture Overview
-
-\- translator.py - language detection and translation
-
-\- database.py - saves all tickets to SQLite database
-
-\- main.py - entry point, runs everything
-
-\- glossary/ - technical terms kept unchanged
-
-\- tickets/ - input ticket files (any language)
-
-\- outputs/ - translated output files saved here
-
-
-
-\## AI Capability Used
-
-\- Agent Loop: automatically processes all tickets
-
-\- External API: Google Translate via deep-translator
-
-
-
-\## Assumptions and Limitations
-
-\- Requires internet connection for translation
-
-\- Works best with clearly written sentences
-
-\- Supported languages: Hindi, Spanish, French, and more
-
-
-
+## AI Usage
+Built using Claude AI as coding assistant.
+Demonstrates External API Integration (Google Translate)
+and Agent Loop processing multiple tickets automatically.
