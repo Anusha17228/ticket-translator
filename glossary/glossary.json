@@ -1,9 +1,18 @@
 {
-  "bug": "bug",
-  "error": "error",
-  "server": "server",
-  "login": "login",
-  "password": "password",
-  "API": "API",
-  "crash": "crash"
+  "पासवर्ड": "password",
+  "इंटरनेट": "internet",
+  "கணக்கு": "account",
+  "పాస్‌వర్డ్": "password",
+  "లాగిన్": "login",
+  "mot de passe": "password",
+  "contraseña": "password",
+  "passwort": "password",
+  "パスワード": "password",
+  "密码": "password",
+  "비밀번호": "password",
+  "كلمة المرور": "password",
+  "şifre": "password",
+  "reset": "reset",
+  "error": "error"
 }
+
