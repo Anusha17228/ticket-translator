@@ -1,4 +1,3 @@
-deep-translator
-langdetect
 flask
-pytest
+gunicorn
+requests
